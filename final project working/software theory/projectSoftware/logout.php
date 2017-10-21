@@ -1,0 +1,1 @@
+pg2929 2.html is the home page rest other files are named properly

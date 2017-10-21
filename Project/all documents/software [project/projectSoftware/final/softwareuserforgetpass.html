@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Forgot Password</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link rel="stylesheet" href="external/css1.css">
+    <link rel="stylesheet" href="external/css2.css">
+    <link rel="stylesheet" href="external/css3.css">
+      <script src="external/jq1.js"></script>
+      <script src="external/jq2.js"></script>
+      <script src="external/jq3.js"></script>           
+      <script src="external/jq4.js"></script> 
+        <script>
+         $(document).ready(function() {
+         $('select').material_select();
+      });</script>
+</head>
+<body class='container' padding:10px>
+<div class='row'>
+<div class='col l7'>  <h4>Forgot Password</h4></div>
+<div class="col l5" ><br><button onclick="location.href='softwaremainlogin.html'" class="btn waves-effect waves-light red">Home</button></div>
+  </div>
+  <form  action="forget_password.php" method="post">
+     <div class="row">
+     <b>Question1</b>:What was the nickname of your first friend ?<br> 
+         <div class="input-field col s12">
+            <input placeholder="Answer"  id="ques1" name="ques1" type="text" class="active validate">
+         </div>
+      </div>
+      <div class='row'>
+      <b>Quesion2</b>:What was the first song which you heard ?<br>
+         <div class="input-field col s12">      
+            <input id="ques2" type="text" name="ques2" placeholder="Answer" class="validate" >          
+         </div>
+      </div>
+      <div class="col l5"><button type="submit" name="submit" class='btn waves-effect waves-light amber'>Get Password</button></div>
+  </form>
+</body>
+</html>

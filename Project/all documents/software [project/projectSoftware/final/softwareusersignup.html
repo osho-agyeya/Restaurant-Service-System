@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Sign Up!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link rel="stylesheet" href="external/css1.css">
+    <link rel="stylesheet" href="external/css2.css">
+    <link rel="stylesheet" href="external/css3.css">
+      <script src="external/jq1.js"></script>
+      <script src="external/jq2.js"></script>
+      <script src="external/jq3.js"></script>           
+      <script src="external/jq4.js"></script> 
+        <script>
+         $(document).ready(function() {
+         $('select').material_select();
+      });</script>
+</head>
+<body class='container'>
+  <form  method="post" action="signup_project.php" method="post">
+     <h2>Sign Up!</h2>
+     <div class="row">
+         <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input placeholder="Username"  id="name" name="name" name="name" type="text" class="active validate" required>
+            <label for="name">Username</label>
+         </div>
+		 </div>
+		 <div class="row">
+         <div class="input-field col s6">      
+            <label for="password">Password</label>
+            <input name="password" id="password" name="password" type="password" placeholder="Password" class="validate" required>          
+         </div>
+		 <div class="input-field col s6">      
+            <label for="password">Retype Password</label>
+            <input name="password1" id="password1" onblur="check()" name="password1" type="password" placeholder="Retype Password" class="validate" required>          
+         </div>
+      </div>
+       <div class="row">
+               <div class="input-field col s12">
+                  <input placeholder="Phone/Mobile No" name="phoneno" id="phone" type="number" class="validate">
+                  <label for="phone">Contact No:</label>
+               </div>
+      </div>
+       <div class="row">
+               <div class="input-field col s12">
+                  <input placeholder="Email" id="email" name="email" type="email" class="validate">
+                  <label for="email">Email</label>
+               </div>
+      </div>
+        <div class="row">
+               <div class="input-field col s12">
+            <i class="material-icons prefix">mode_edit</i>
+                  <textarea name="address" id="address" class="materialize-textarea"></textarea>
+                  <label for="address">Address</label>
+               </div>
+            </div>
+		<div class="row">
+		<h5>Security Questions:</h5><br/>
+     <b>Question1</b>: What was the nickname of your first friend ?<br> 
+         <div class="input-field col s12">
+            <input placeholder="Answer"  name="ques1" id="ques1" type="text" class="active validate">
+         </div>
+      </div>
+      <div class='row'>
+      <b>Question2</b>: What was the first song which you heard ?<br>
+         <div class="input-field col s12">      
+            <input id="ques2" type="text" name="ques2" placeholder="Answer" class="validate" >          
+         </div>
+      </div>
+        <div class="row" >
+          <div class="col l6"><button type="submit" name="submit" class='btn waves-effect waves-light green'>Register</button></div>
+          <div class="col l6"><button type="reset" class="btn waves-effect waves-light red">Clear!</button></div>
+        </div>
+    </div>
+  </form>
+  <script>
+  function check()
+  {
+      var p=document.getElementById('i').value;
+      var pr=document.getElementById('p').value;
+      if(pr!=''){
+      if(p!=pr)
+      {
+        document.getElementById('o').innerHTML='<font color="red">password doesnt match</font>';
+        return false;
+      }
+      else 
+      {
+        document.getElementById('o').innerHTML='<font>✅</font>';
+      }}
+      
+  }
+  </script>
+</body>
+</html>

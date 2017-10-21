@@ -1,0 +1,299 @@
+if(isset($_POST['601']))
+	{
+		if(isset($_POST['601q']))
+		{
+		
+		$quantity=$_POST['601q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['601'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['602']))
+	{
+		if(isset($_POST['602q']))
+		{
+		
+		$quantity=$_POST['602q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['602'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['603']))
+	{
+		if(isset($_POST['603q']))
+		{
+		
+		$quantity=$_POST['603q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['603'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['604']))
+	{
+		if(isset($_POST['604q']))
+		{
+		
+		$quantity=$_POST['604q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['604'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['605']))
+	{
+		if(isset($_POST['605q']))
+		{
+		
+		$quantity=$_POST['605q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['605'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['606']))
+	{
+		if(isset($_POST['606q']))
+		{
+		
+		$quantity=$_POST['606q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['606'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['607']))
+	{
+		if(isset($_POST['607q']))
+		{
+		
+		$quantity=$_POST['607q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['607'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['608']))
+	{
+		if(isset($_POST['608q']))
+		{
+		
+		$quantity=$_POST['608q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['608'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['609']))
+	{
+		if(isset($_POST['609q']))
+		{
+		
+		$quantity=$_POST['609q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['609'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['610']))
+	{
+		if(isset($_POST['610q']))
+		{
+		
+		$quantity=$_POST['610q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['610'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['611']))
+	{
+		if(isset($_POST['611q']))
+		{
+		
+		$quantity=$_POST['611q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['611'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['612']))
+	{
+		if(isset($_POST['612q']))
+		{
+		
+		$quantity=$_POST['612q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['612'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['613']))
+	{
+		if(isset($_POST['613q']))
+		{
+		
+		$quantity=$_POST['613q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['613'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['614']))
+	{
+		if(isset($_POST['614q']))
+		{
+		
+		$quantity=$_POST['614q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['614'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['615']))
+	{
+		if(isset($_POST['615q']))
+		{
+		
+		$quantity=$_POST['615q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['615'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['616']))
+	{
+		if(isset($_POST['616q']))
+		{
+		
+		$quantity=$_POST['616q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['616'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['617']))
+	{
+		if(isset($_POST['617q']))
+		{
+		
+		$quantity=$_POST['617q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['617'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['618']))
+	{
+		if(isset($_POST['618q']))
+		{
+		
+		$quantity=$_POST['618q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['618'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['619']))
+	{
+		if(isset($_POST['619q']))
+		{
+		
+		$quantity=$_POST['619q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['619'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['620']))
+	{
+		if(isset($_POST['620q']))
+		{
+		
+		$quantity=$_POST['620q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['620'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['621']))
+	{
+		if(isset($_POST['621q']))
+		{
+		
+		$quantity=$_POST['621q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['621'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['622']))
+	{
+		if(isset($_POST['622q']))
+		{
+		
+		$quantity=$_POST['622q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['622'];
+		$order=$order.", $current";
+		
+		}
+
+	}
+if(isset($_POST['623']))
+	{
+		if(isset($_POST['623q']))
+		{
+		
+		$quantity=$_POST['623q'];
+		$cost=$cost+(*$quantity);
+		$current=$_POST['623'];
+		$order=$order.", $current";
+		
+		}
+
+	}
